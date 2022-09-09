@@ -1,0 +1,184 @@
+
+/*Global styles 
+----------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+* , *:before , *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #322d2d;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+    border: 2px solid #322d2d;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    color:  #ebdcec;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20em;
+    line-height: 1;
+}
+
+#names {
+    text-align: center;
+    color: #ebdcec;
+}
+
+#Fname {
+    font-size: 7em;
+    display:inline-block;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    transform: scale(1);
+    animation: pulse 5s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes pulse {
+
+    0% {
+		transform: scale(0.99);
+		text-shadow: 10px 10px 10px black;
+	}
+
+    70% {
+		transform: scale(1);
+		text-shadow: 10px 10px 10px black;
+	}
+
+    100% {
+		transform: scale(0.95);
+		text-shadow: 10px 10px 10px black;
+	}
+
+}
+
+#Lname {
+    font-size: 7em;
+    display:inline-block;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    transform: scale(1);
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    
+	0% {
+		transform: scale(0.95);
+		text-shadow: 10px 10px 10px black;
+	}
+
+	70% {
+		transform: scale(1);
+		text-shadow: 10px 10px 10px black;
+	}
+
+	100% {
+		transform: scale(0.95);
+		text-shadow: 10px 10px 10px black;
+	}
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h1 , h2 {
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+h3 {
+    color: #074425;
+}
+
+/*Profile 
+----------------------------------------------*/
+header {
+    background: #074425;
+    color: #eeefee;
+}
+
+/*Projects
+----------------------------------------------*/
+.projects {
+    background: #eeefee;
+}
+
+.projects a { 
+    background: #074425;
+}
+
+.projects h3 {
+    margin-top: 0;
+}
+
+.projects .btn {
+    color: #074425;
+    background: #ebdcec;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: #ebdcec;
+    padding: 1.5%;
+    text-shadow: 20px 20px 50px rgb(0, 0, 0);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #322d2d;
+    padding: 25px 0;
+}
+
+.project-item img{
+    float: left;
+    margin: 20px;
+}
+
+/*Work Experience
+----------------------------------------------*/
+.work-experience {
+    background: #ebdcec;
+}
+
+/*Education
+----------------------------------------------*/
+
+/*Contact info
+----------------------------------------------*/
+footer {
+    background: #322d2d;
+    color: #eeefee;
+}
